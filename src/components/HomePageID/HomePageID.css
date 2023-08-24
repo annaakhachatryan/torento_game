@@ -1,0 +1,103 @@
+.ganz {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    margin: auto;
+    padding: 0 27.5vh;
+}
+.ganz .gameName {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #4f4b45;
+}
+.aboutGameInfo{
+    display: flex;
+}
+.gameInfoImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    padding: 2px;
+}
+.aboutGameInfo p{
+    padding: 0;
+    margin: 1px;
+    font-size: 15px;
+}
+.gameInfoImg img{
+    width: 200px;
+    height: 300px;
+    border-radius: 3px;
+}
+.gameInfoImg button{
+    margin: 10px 0 0 0;
+    width: 170px;
+    font-size: 12px;
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px;
+}
+.gameInfoImg button:hover{
+    background-color: red;
+}
+.gameDes {
+    color: #94ca17;
+    font-size: x-large;
+}
+.ganz .trailer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ganz .trailer .gameplay {
+    font-size: large;
+    color: #94ca17;
+    font-weight: 400;
+    width: 100%;
+    text-align: left;
+}
+.ganz .download {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ganz .download p {
+    font-size: x-large;
+    color: #94ca17;
+}
+.as p{
+    width: 85%;
+    font-size: 15px;
+}
+.ganz .download button {
+    background-color: #94ca17;
+    padding: 7px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: xx-large;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.ganz .download button:hover {
+    cursor: pointer;
+    background-color: #afe432;
+}
+.gameLIkes{
+    display: flex;
+    align-items: center;
+    position:relative;
+    left: 18rem;
+    background-color: #e6c200;
+    padding: 2px 19px;
+    border-radius: 4px;
+}
+.gameLIkes .icon{
+    font-size: 17px;
+    color: rgb(75, 57, 25);
+    margin: 3px;
+}

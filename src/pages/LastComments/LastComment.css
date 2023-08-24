@@ -1,0 +1,94 @@
+.comment{
+    display: flex;
+    align-items: center;
+}
+.bigDivComment{
+    display: flex;
+    align-items: center;
+    border-bottom:  1px solid rgb(210, 209, 209);
+    width: 650px;
+}
+.bigDivComment .eachCommentItem {
+    width: 100%;
+    padding-top: 15px;
+    display: flex;
+    
+}
+
+.bigDivComment img{
+    width: 70px;
+    height: 70px;
+    border-radius: 4px;
+    margin: 5px 0;
+    margin-right: 10px;
+}
+.LastComments{
+    display: flex;
+    justify-content:center;
+    margin: 0 8vh;
+}
+.eachCommentItem p{
+    margin: 5px 4px;
+}
+.bigDivComment .eachCommentItem .nameDate {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 11pt;
+}
+.bigDivComment .eachCommentItem .nameDate span {
+    color: #98c662;
+}
+.center {
+    margin-left: 115px;
+}
+.likes {
+    width: 100%;
+    text-align: right;
+}
+.comInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.comInfo a {
+    font-size: 1.2em;
+    color: black;
+}
+.status {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.on {
+    font-size: 13px;
+    width: 65px;
+    color: white;
+    text-align: center;
+    border-radius: 1.5px;
+    padding-right: 2px;
+    padding-left: 2px;
+    position: absolute;
+    top: 75px;
+    right: 4px
+}
+
+.commentsForm input{
+    padding: 20px 10px;
+    width: 350px;
+    border: 2px solid #98c662;
+    border-radius: 4px;
+}
+.commentsForm button{
+    background-color: #98c662;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    width: 70px;
+    margin: 0 10px;
+    border-radius: 4px;
+}
+.commentsForm button:hover{
+    background-color: #363f4b;
+}

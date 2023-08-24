@@ -1,0 +1,30 @@
+.footerDivDirection p{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    right: 14vh;
+    color: gray;
+    cursor: pointer;
+}
+.footerDivDirection p:hover{
+    color: #fff;
+}
+.footerDivDirection{
+    background-color: #292929;
+    padding: 2px;
+    margin-top: 8vh;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #1e1e1e;
+    color: gray;
+}
+.footer p{
+    position: relative;
+    font-size: 15px;
+    left: 15vh;
+    cursor: pointer;
+}

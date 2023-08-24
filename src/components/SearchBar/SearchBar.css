@@ -1,0 +1,65 @@
+.search .searchNav {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+}
+.search{
+    background-color: #8bc34a;
+}
+.searchNav{
+    margin: 0 27vh;
+}
+.search .searchNav a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-size: 15px;
+}
+.search .searchNav a:hover {
+    text-decoration: underline;
+}
+.serach .searchNav span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search .searchNav .route {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.search input {
+    padding: 7px;
+    border: 1px solid #aeda6c;
+    outline: none;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    width: 250px;
+}
+input::placeholder{
+    color: #fff;
+}
+.searchDiv{
+    display: inline-block;
+    position: absolute;
+    left: 65%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.searchDiv2{
+    margin-top: 20px;
+    margin: 7px 3px;
+    width: 300px;
+    color: #8bc34a;
+    transition: .4s;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.route .icon{
+    font-size: 17px;
+}
+.searchDiv2 a:hover{
+    text-decoration: none;
+}

@@ -1,0 +1,250 @@
+/* ////////// header /////////////// */
+.wrapperLink {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1e1e1e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    z-index: 1;
+}
+
+.avatar {
+    position: relative;
+}
+
+.avatar img {
+    cursor: pointer;
+}
+
+.WrapForm {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: absolute;
+    top: 50px;
+    left: -50vh;
+    background-color: white;
+    width: 200px;
+    border-top: 3px solid #8bc34a;
+}
+
+form {
+    padding: 0 30px;
+
+}
+
+.form p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.WrapForm p {
+    margin: 8px 0;
+}
+
+.WrapForm button {
+    margin-top: 15px;
+    display: inline-block;
+    background-color: #8bc34a;
+    padding: 10px 15px;
+    border: 0px solid;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    padding: 15px 12px;
+    margin: 7px 0;
+}
+
+.WrapForm input {
+    padding: 6px;
+    border-color: rgb(179, 176, 176);
+    outline: none;
+}
+
+.reg {
+    font-size: 14px;
+    color: rgb(74, 74, 74);
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.WrapForm button:hover {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+header {
+    padding: 0 31px;
+}
+
+.wrapperLink a {
+    text-decoration: none;
+    margin: 0 14px;
+    color: grey;
+    font-size: 15px;
+    padding: 0;
+}
+
+.wrapperLink a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+header {
+    margin: 0;
+}
+
+.darkMode .light {
+    width: 29px;
+}
+
+.avatar img {
+    width: 33px;
+    border-radius: 3px;
+}
+
+.darkModeP {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 14px;
+    color: grey;
+}
+
+.darkModeP:hover {
+    color: white;
+}
+
+.darkModeP span {
+    font-size: 12px;
+}
+
+.darkModeP span:hover {
+    color: #8bc34a;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 55px;
+    position: relative;
+    padding: 3px;
+}
+
+.avatar div {
+    margin: 0 5px;
+}
+
+
+/* //////////// nav /////////////// */
+
+.conatiner {
+    margin-top: 7vh;
+    padding-top: 15px;
+    padding-bottom: 19px;
+}
+
+.flexCont {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8vh;
+    margin: 0 8vh;
+}
+
+.Link {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Link p {
+    margin: 0;
+}
+
+.NavLink {
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    background-color: #8bc34a;
+    font-size: 16px;
+    padding: 0 5px;
+    padding: 7px;
+    margin: 7px;
+}
+
+.NavLink a {
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    background-color: #8bc34a;
+    margin: 0;
+}
+
+.igruha {
+    color: #8bc34a;
+    transition: .3s;
+}
+
+.Link:hover .igruha {
+    color: rgb(14, 172, 221);
+}
+
+.TorrentIgruha {
+    font-size: 34px;
+    color: rgb(50, 50, 50);
+    font-weight: normal;
+    padding: 0 5px;
+}
+
+.org {
+    font-size: 13px;
+    color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 13px;
+    left: 18px;
+}
+
+.site {
+    font-size: 12.5px;
+    padding: 7px 0;
+}
+
+.right {
+    margin-top: 20px;
+}
+
+.active {
+    background-color: rgb(14, 172, 221);
+}
+.regLinks a{
+    color: #474747;
+    width: auto;
+    margin: 0;
+}
+.regLinks a:hover{
+    color: #474747;
+    text-decoration: underline;
+
+}
+@media only screen and (max-width: 1108px) {
+    .wrapperLink {
+        height: 40px;
+        position: none;
+    }
+
+    .org {
+        display: flex;
+        position: relative;
+        top: 13px;
+        left: 5px;
+    }
+}

@@ -1,0 +1,161 @@
+/* HomePage.css */
+
+.HomePage {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    margin: auto;
+    padding: 0 11vh;
+}
+
+.newSite {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5.5vh;
+    margin: 6px;
+    color: rgb(72, 71, 71);
+}
+
+.newSiteBorder {
+    border-left: 4px solid #8bc34a;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.eachItem a {
+    color: #000;
+}
+
+.eachItem a:hover {
+    text-decoration: underline;
+}
+
+.eachItem {
+    width: 166px;
+    height: 282px;
+    margin-right: 2.5%;
+    float: left;
+    height: 295px;
+}
+
+.homePageContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 19px;
+    margin-top: -20px;
+    margin: 0 .5vh;
+    padding: 0 6vh;
+}
+
+.center {
+    margin-top: 11px;
+    position: relative;
+    text-align: center;
+    float: left;
+    right: 8vh;
+}
+
+.item3 {
+    width: 740px;
+}
+
+.gameItem {
+    margin: 0;
+    width: 718px;
+}
+
+.gameItem img {
+    height: 240px;
+    width: 163px;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.gameItem p {
+    font-size: 14px;
+}
+
+.gameImg {
+    cursor: pointer;
+    width: 200px;
+    height: 278px;
+}
+
+.gameImg:hover {
+    box-shadow: 5px 4px 10px 5px rgba(12, 234, 190, 0.646);
+}
+
+.search nav {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: #8bc34a;
+}
+
+.search nav a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.search nav a:hover {
+    text-decoration: underline;
+}
+
+input {
+    outline: none;
+}
+
+.serach nav span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search nav .route {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search nav .inp input {
+    padding: 7px;
+    border: 2px solid #98ce48;
+    border-radius: 25px;
+    background-color: #8bc34a;
+    color: white;
+    width: 200px;
+
+}
+
+.swiper a {
+    border: 2px solid #8bc34a;
+    border-radius: 3px;
+    padding: 7px;
+    margin: 10px 15px;
+    cursor: pointer;
+    color: #000;
+}
+
+.swiper a:hover {
+    background-color: #8bc34a;
+    color: #fff;
+}
+
+.newSite a {
+    color: rgb(67, 67, 67);
+    font-size: 15px;
+}
+
+.newSite a:hover {
+    color: #98ce48;
+}
+
+@media only screen and (max-width: 1108px) {
+    .center{
+        display: none;
+    }
+    
+}

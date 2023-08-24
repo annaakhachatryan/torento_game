@@ -1,0 +1,95 @@
+.inpReg{
+    background: #fff;
+    border: 2px solid #d9d9d9 !important;
+    outline: none;
+    width: 550px;
+    padding: 4px 3px 5px;
+    margin: 10px;
+}
+form span{
+    margin: 10px;
+}
+form h1{
+    margin: 10px;
+    line-height: 1.33333333333;
+}
+form p{
+    margin: 10px;
+    line-height: 1.33333333333;
+}
+.RegBtn{
+    background: #8bc34a;
+    border: none;
+    border-bottom: 0 solid rgba(241,43,36,.7);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    height: 46px;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 8px;
+    outline: none;
+    padding: 0 18px;
+    position: relative;
+    bottom: 180px;
+    margin-left: 10px;
+    text-shadow: none!important;
+}
+.RegBtn:hover{
+    background: #3d4654;
+    border-bottom-color: #454545;
+}
+li{ 
+    margin: 1px 0 0 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 65px;
+    font-size: 15px;
+    color: #d9d9d9;
+    cursor: pointer;   
+}
+.pinbot-input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+li:hover{
+    background: rgba(255,255,255,0.4);
+}
+ul{
+    background: #222 url(https://itorrents-igruha.org/engine/modules/pinbot/assets/bg.png) no-repeat 0 0;  
+    background-size: 200px;  
+    padding: 0;
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.regName{
+    background-color: #8bc34a;
+    border-color: #8bc34a;
+    color: #fff;
+    width: 140px;
+    padding: 5px;
+}
+.regName:hover{
+    background-color: #363f4b;
+    border-color: #363f4b;
+}
+.registration{
+    padding: 0 17vh;
+    color: #454545;
+}
+.registration h2{
+    padding: 0 8px;
+    font-size: 1.4rem;
+}
